@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/CV-Task/static/css/main.1972f31d.chunk.css",
-    "main.js": "/CV-Task/static/js/main.20d3624e.chunk.js",
-    "main.js.map": "/CV-Task/static/js/main.20d3624e.chunk.js.map",
+    "main.css": "/CV-Task/static/css/main.2a84a6f8.chunk.css",
+    "main.js": "/CV-Task/static/js/main.a34f8b1e.chunk.js",
+    "main.js.map": "/CV-Task/static/js/main.a34f8b1e.chunk.js.map",
     "runtime-main.js": "/CV-Task/static/js/runtime-main.7f1624e0.js",
     "runtime-main.js.map": "/CV-Task/static/js/runtime-main.7f1624e0.js.map",
     "static/js/2.f9ced6bd.chunk.js": "/CV-Task/static/js/2.f9ced6bd.chunk.js",
     "static/js/2.f9ced6bd.chunk.js.map": "/CV-Task/static/js/2.f9ced6bd.chunk.js.map",
     "index.html": "/CV-Task/index.html",
-    "static/css/main.1972f31d.chunk.css.map": "/CV-Task/static/css/main.1972f31d.chunk.css.map",
+    "static/css/main.2a84a6f8.chunk.css.map": "/CV-Task/static/css/main.2a84a6f8.chunk.css.map",
     "static/js/2.f9ced6bd.chunk.js.LICENSE.txt": "/CV-Task/static/js/2.f9ced6bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7f1624e0.js",
     "static/js/2.f9ced6bd.chunk.js",
-    "static/css/main.1972f31d.chunk.css",
-    "static/js/main.20d3624e.chunk.js"
+    "static/css/main.2a84a6f8.chunk.css",
+    "static/js/main.a34f8b1e.chunk.js"
   ]
 }
