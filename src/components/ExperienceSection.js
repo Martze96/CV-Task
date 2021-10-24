@@ -28,9 +28,9 @@ const ExperienceSection = (props) => {
                             value = {workTitle}
                             name="workTitle"
                         />
-        tasksInput = <input 
+        tasksInput = <textarea 
                             onChange = {handleInputChange}
-                            className= "tasks"
+                            className= "tasksInput"
                             value = {tasks}
                             name="tasks"
                         />
@@ -47,35 +47,35 @@ const ExperienceSection = (props) => {
                             name="workDateTo"
                         />
     } else {
-        companyInput = <span>{company}</span>;
-        workTitleInput = <span>{workTitle}</span>;
-        tasksInput = <span>{tasks}</span>;
-        workDateFromInput = <span>{workDateFrom}</span>;
-        workDateToInput = <span>{workDateTo}</span>;
+        companyInput = <span className="dataSpan">{company}</span>;
+        workTitleInput = <span className="dataSpan">{workTitle}</span>;
+        tasksInput = <span className="dataSpan">{tasks}</span>;
+        workDateFromInput = <span className="dataSpan">{workDateFrom}</span>;
+        workDateToInput = <span className="dataSpan">{workDateTo}</span>;
     }
     return (
         <div className= "experience component">
-            <div className= "section header">
+            <div className= "sectionHeader">
                 Arbeitserfahrung
             </div>
             <div className="company section">
-                <label htmlFor="companyInput" className="companyInputLabel">Unternehmen: </label>
+                <label htmlFor="companyInput" className="InputLabel">Unternehmen: </label>
                 {companyInput}
             </div>
             <div className="workTitle section">
-                <label htmlFor="workTitleInput" className="workTitleInputLabel">Titel:</label>
+                <label htmlFor="workTitleInput" className="InputLabel">Titel:</label>
                 {workTitleInput}
             </div>
             <div className="tasks section">
-                <label htmlFor="tasksInput" className="tasksInputLabel">Aufgabenbereiche:</label>
+                <label htmlFor="tasksInput" className="InputLabel">Aufgabenbereiche:</label>
                 {tasksInput}
             </div>
             <div className="workDateFrom section">
-                <label htmlFor="workDateFromInput" className="workDateFromInputLabel">Von:</label>
+                <label htmlFor="workDateFromInput" className="InputLabel">Von:</label>
                 {workDateFromInput}
             </div>
             <div className="workDateTo section">
-                <label htmlFor="workDateToInput" className="workDateToInputLabel">Bis:</label>
+                <label htmlFor="workDateToInput" className="InputLabel">Bis:</label>
                 {workDateToInput}
             </div>
             <div className="buttons">

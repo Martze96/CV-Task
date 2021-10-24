@@ -40,30 +40,30 @@ const EducationSection = (props) => {
                             name="eduDateTo"
                         />
     } else {
-        schoolInput = <span>{school}</span>;
-        degreeInput = <span>{degree}</span>;
-        eduDateFromInput = <span>{eduDateFrom}</span>;
-        eduDateToInput = <span>{eduDateTo}</span>;
+        schoolInput = <span className="dataSpan">{school}</span>;
+        degreeInput = <span className="dataSpan">{degree}</span>;
+        eduDateFromInput = <span className="dataSpan">{eduDateFrom}</span>;
+        eduDateToInput = <span className="dataSpan">{eduDateTo}</span>;
     }
     return (
         <div className= "education component">
-            <div className= "section header">
+            <div className= "sectionHeader">
                 Bildungserfahrung
             </div>
             <div className="school section">
-                <label htmlFor="schoolInput" className="schoolInputLabel">Schule: </label>
+                <label htmlFor="schoolInput" className="InputLabel">Schule: </label>
                 {schoolInput}
             </div>
             <div className="degree section">
-                <label htmlFor="degreeInput" className="degreeInputLabel">Abschluss:</label>
+                <label htmlFor="degreeInput" className="InputLabel">Abschluss:</label>
                 {degreeInput}
             </div>
             <div className="eduDateFrom section">
-                <label htmlFor="eduDateFromInput" className="eduDateFromInputLabel">Von:</label>
+                <label htmlFor="eduDateFromInput" className="InputLabel">Von:</label>
                 {eduDateFromInput}
             </div>
             <div className="eduDateTo section">
-                <label htmlFor="eduDateToInput" className="eduDateToInputLabel">Bis:</label>
+                <label htmlFor="eduDateToInput" className="InputLabel">Bis:</label>
                 {eduDateToInput}
             </div>
             <div className="buttons">

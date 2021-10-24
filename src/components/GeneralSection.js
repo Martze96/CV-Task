@@ -37,26 +37,26 @@ const GeneralSection = (props) => {
                         name="phone"
                     />
     } else {
-        nameInput = <span>{name}</span>;
-        emailInput = <span>{email}</span>;
-        phoneInput = <span>{phone}</span>;
+        nameInput = <span className="dataSpan">{name}</span>;
+        emailInput = <span className="dataSpan">{email}</span>;
+        phoneInput = <span className="dataSpan">{phone}</span>;
     }
 
     return (
         <div className= "general component">
-            <div className= "section header">
+            <div className= "sectionHeader">
                 Allgemeine Information
             </div>
             <div className="name section">
-                <label htmlFor="nameInput" className="nameInputLabel">Name: </label>
+                <label htmlFor="nameInput" className="InputLabel">Name: </label>
                 {nameInput}
             </div>
             <div className="email section">
-                <label htmlFor="emailInput" className="emailInputLabel">E-Mail:</label>
+                <label htmlFor="emailInput" className="InputLabel">E-Mail:</label>
                 {emailInput}
             </div>
             <div className="phone section">
-                <label htmlFor="phoneInput" className="phoneInputLabel">Tel.-Nr.:</label>
+                <label htmlFor="phoneInput" className="InputLabel">Tel.-Nr.:</label>
                 {phoneInput}
             </div>
             <div className="buttons">

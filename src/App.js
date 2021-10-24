@@ -6,9 +6,7 @@ import EducationSection from './components/EducationSection';
 import ExperienceSection from './components/ExperienceSection';
 
 import './styles/App.css';
-import './styles/section.css';
-import './styles/GeneralSection.css';
-import './styles/GeneralSection.css';
+
 
 class App extends Component {
 
@@ -31,7 +29,7 @@ class App extends Component {
       eduDateTo: '',
       eduEditMode: true,
       eduNr: 1,
-      //educations: [],
+      educations: [],
       
       //educationComponents: [],
 
