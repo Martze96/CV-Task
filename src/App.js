@@ -120,7 +120,6 @@ class App extends Component {
     
     return (
     <div className="App">
-      <div className="background"></div>
       <div className="header">CV-Maker with React.js</div>
       <GeneralSection
         name={name}

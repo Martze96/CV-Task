@@ -8,7 +8,11 @@ html, body, #root {
 
 body {
     position: absolute;
+    height: max-content;
     font-family: sans-serif;
+    background-image: linear-gradient(rgb(255, 224, 224), rgb(170, 228, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -22,15 +26,6 @@ body {
     align-items: center;
 }
 
-.background{
-    z-index: -1;
-    position: absolute;
-    border: 1px solid black;
-    height:98%;
-    width: 96%;
-    
-    
-}
 
 .header {
     z-index: 1;
@@ -79,12 +74,18 @@ body {
 input {
     z-index: 1;
     width: 25vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 5px;
 }
 
 .tasksInput {
     z-index: 1;
     width: 25vh;
     height: 10vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 5px;
 }
 
 .dataSpan {
@@ -100,7 +101,7 @@ button {
     z-index: 1;
 background-color: rgba(216,216,216,0.8);
 border: none;
-color: #6c757d;
+color: #444444;
 margin: 5px;
 padding: 0.5rem 1rem;
 font-size: 1rem;
