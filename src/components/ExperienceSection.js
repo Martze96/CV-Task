@@ -67,7 +67,7 @@ const ExperienceSection = (props) => {
                 {workTitleInput}
             </div>
             <div className="tasks section">
-                <label htmlFor="tasksInput" className="InputLabel">Aufgabenbereiche:</label>
+                <label htmlFor="tasksInput" className="InputLabel">Aufgaben:</label>
                 {tasksInput}
             </div>
             <div className="workDateFrom section">
