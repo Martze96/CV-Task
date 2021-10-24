@@ -45,7 +45,7 @@ const GeneralSection = (props) => {
     return (
         <div className= "general component">
             <div className= "sectionHeader">
-                Allgemeine Information
+                Allgemeine Informationen
             </div>
             <div className="name section">
                 <label htmlFor="nameInput" className="InputLabel">Name: </label>

@@ -120,6 +120,7 @@ class App extends Component {
     
     return (
     <div className="App">
+      <div className="background"></div>
       <div className="header">CV-Maker with React.js</div>
       <GeneralSection
         name={name}
@@ -132,7 +133,7 @@ class App extends Component {
         id={id}
         nameId={nameId}
       />
-      
+      <div className="line"></div>
       <EducationSection
         school={school}
         degree={degree}
@@ -143,6 +144,7 @@ class App extends Component {
         onSubmit={this.onSubmit}
         onEdit={this.onEdit}
       /> 
+      <div className="line"></div>
       {/*this.state.educationComponents */}
       {/*<button onClick={this.addEdu}>Bildung hinzufügen</button> */}
       <ExperienceSection
