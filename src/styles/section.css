@@ -1,0 +1,14 @@
+.component {
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
