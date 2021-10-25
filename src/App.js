@@ -114,8 +114,8 @@ class App extends Component {
   render() {
     const {
       name, email, phone, generalEditMode, id, nameId,
-      school, degree, eduDateFrom, eduDateTo, eduEditMode, eduNr, educations,
-      company, workTitle, tasks, workDateFrom, workDateTo, workEditMode, workNr, experiences
+      school, degree, eduDateFrom, eduDateTo, eduEditMode, // eslint-disable-next-line eduNr, educations,
+      company, workTitle, tasks, workDateFrom, workDateTo, workEditMode, // eslint-disable-next-line workNr, experiences
     } = this.state;
     
     return (

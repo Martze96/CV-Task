@@ -6,8 +6,7 @@ const GeneralSection = (props) => {
     const {email} = props;
     const {phone} = props;
     const {generalEditMode} = props;
-    const {id} = props;
-    const nameId = props;
+
     
     
     const {handleInputChange} = props;
